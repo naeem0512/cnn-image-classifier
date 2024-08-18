@@ -42,7 +42,9 @@ drive.mount('/content/drive')
 ```
 
 # Adjust the path as required to match your own Google Drive structure
+```python
 data_dir = '/content/drive/MyDrive/Image Classifier/data'
+```
 
 ## Model
 
@@ -85,7 +87,7 @@ These can be installed using pip:
 
 ```bash
 pip install tensorflow keras opencv-python matplotlib numpy
-
+```
 ### Running the Notebook
 
 1. **Open the Colab Notebook:**
@@ -99,6 +101,7 @@ pip install tensorflow keras opencv-python matplotlib numpy
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
+   ```
 
 ### Run the Cells
 
@@ -112,10 +115,12 @@ The model will output predictions for the test images, indicating whether they a
 
 The project files are organized as follows:
 
+```bash
 ├── model.ipynb               # The main notebook for the project
 ├── README.md                 # This README file
 └── data/                     # Directory containing the image dataset (in Google Drive)
 └── logs/                     # Directory containing training logs and model checkpoints
+```
 
 ## Conclusion
 
