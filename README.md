@@ -39,6 +39,7 @@ Make sure to mount your Google Drive in the Colab notebook to access the images.
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
 
 # Adjust the path as required to match your own Google Drive structure
 data_dir = '/content/drive/MyDrive/Image Classifier/data'
@@ -129,6 +130,7 @@ In future iterations of this project, I plan to:
 - Experiment with more complex models, such as deeper CNN architectures.
 - Explore different datasets to improve the robustness of the model.
 - Implement transfer learning using pre-trained models like VGG16 or ResNet.
+
 
 ## Acknowledgments
 
